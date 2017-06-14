@@ -154,6 +154,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     keystore.msm8952
 
+# Keylayout
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/fpc1020.kl:system/usr/keylayout/fpc1020.kl
+
 # Lights
 PRODUCT_PACKAGES += \
     lights.msm8952
